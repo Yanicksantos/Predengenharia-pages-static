@@ -7,10 +7,8 @@
                     icon="mdi-menu" 
                     size="large"
                     v-bind="menu"
-                    variant='outlined'
                     class="rounded-sm"
-                    >
-                    </v-btn>
+                    ></v-btn>
                   </template>
                   <v-list>
                       <v-list-item
