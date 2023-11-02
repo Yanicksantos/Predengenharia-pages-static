@@ -5,7 +5,7 @@
                         <PagesPrincipalMci />     
                         <PagesPrincipalServices />
                         <PagesPrincipalVisao />
-                        <PagesPrincipalHistoria />
+                        <!--<PagesPrincipalHistoria />-->
                         <PagesPrincipalParceiro />
                         <UtilsComentario />
                         <PagesPrincipalSobre />

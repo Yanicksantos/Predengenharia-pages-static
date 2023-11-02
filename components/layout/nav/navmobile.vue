@@ -7,7 +7,7 @@
                     icon="mdi-menu" 
                     size="large"
                     v-bind="menu"
-                    variant="'outlined"
+                    variant='outlined'
                     class="rounded-sm"
                     >
                     </v-btn>
