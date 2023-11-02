@@ -1,7 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  ssr:false,
+  routeRules:{
+    '/**':{static: true}
+  },
   css:[
     'vuetify/styles/main.sass',
     '@mdi/font/css/materialdesignicons.css'
