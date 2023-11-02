@@ -7,58 +7,36 @@
                     icon="mdi-menu" 
                     size="large"
                     v-bind="menu"
-                    class="rounded-sm"
                     ></v-btn>
                   </template>
                   <v-list>
+                     
+
                       <v-list-item
                      
                       >
                           <v-btn
-                          variant="tonal" width="100%"
-                          to="/"
+                          variant="tonal" 
+                          width="100%"
+                          to="/sobre"
                           >
-                              Inicio
+                            SOBRE NÓS
                           </v-btn>
                       </v-list-item>
+
 
                       <v-list-item
                      
                       >
                           <v-btn
-                          variant="tonal" width="100%">
-                              SOBRE NÓS
-                          </v-btn>
-                      </v-list-item>
-
-                      
-
-
-                      
-                      <v-list-item>
-                          <v-btn variant="tonal"  width="100%" prepend-icon="mdi-account-wrench" class="text-left">
-                              Nossos Serviços
-                          </v-btn>
-                      </v-list-item>
-
-                      <v-list-item
-                     
-                      >
-                          <v-btn
-                          variant="tonal" width="100%">
+                          variant="tonal" 
+                          width="100%"
+                          href="https://suporte.s3i.com.br/blog/"
+                          >
                               BLOG
                           </v-btn>
                       </v-list-item>
 
-
-
-
-
-                      <v-list-item>
-                          <v-btn variant="flat" width="100%" prepend-icon="mdi-face-agent" color="primary" >
-                              Agendar demostração
-                          </v-btn>
-                      </v-list-item>
 
                       <v-list-item>
                           <v-btn variant="tonal" width="100%" prepend-icon="mdi-card-account-mail">

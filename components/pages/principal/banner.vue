@@ -18,7 +18,7 @@
                 append-icon="mdi-arrow-top-right"
                 class="mt-4 text-grey-lighten-5"
                 color="#B71C1C"
-                
+                to="/sobre"
                 >Saiba mais</v-btn>
             </div>
             </div>
