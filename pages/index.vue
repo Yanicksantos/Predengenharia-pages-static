@@ -5,6 +5,7 @@
                         <PagesPrincipalMci />     
                         <PagesPrincipalServices />
                         <PagesPrincipalVisao />
+                        <!--retirado a historia-->
                         <!--<PagesPrincipalHistoria />-->
                         <PagesPrincipalParceiro />
                         <UtilsComentario />
