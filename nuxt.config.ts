@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   routeRules:{
+    '/':{static: true},
     '/**':{static: true}
   },
   css:[
