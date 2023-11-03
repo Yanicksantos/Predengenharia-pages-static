@@ -1,6 +1,6 @@
 <template>
        <div class=" h-100" 
-        style="background-image: url('/img/historias/1.jpeg'); background-size: cover; background-attachment: fixed; background-position: right center;"
+        style="background-image: url('/img/historias/1.jpeg'); background-size: cover; background-position: right center;"
         >
         <div class="pa-3 h-100" style="overflow: hidden; background-color: rgba(26,35,126, .95);">
             
