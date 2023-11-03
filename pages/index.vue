@@ -5,11 +5,10 @@
                         <PagesPrincipalMci />     
                         <PagesPrincipalServices />
                         <PagesPrincipalVisao />
-                        <!--retirado a historia-->
-                        <!--<PagesPrincipalHistoria />-->
                         <PagesPrincipalParceiro />
-                        <UtilsComentario />
+                        <PagesPrincipalHistoria />
                         <PagesPrincipalSobre />
+                        <UtilsComentario />
                         <PagesPrincipalForms />
                 </v-main>
         </div>

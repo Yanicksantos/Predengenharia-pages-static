@@ -38,9 +38,6 @@
                 </v-list-item>          
             </div>
 
-            <div>
-                <PagesPrincipalHistoria />
-            </div>
 
             <div class="bg-grey-lighten-3">
                 <h1 class="text-h6 text-center pt-6 px-2">Veja o que estão falando da PRED...</h1>

@@ -1,18 +1,33 @@
 <template>
-       <div class="  h-100" 
+       <div class=" h-100" 
         style="background-image: url('/img/historias/1.jpeg'); background-size: cover; background-attachment: fixed; background-position: right center;"
         >
         <div class="pa-3 h-100" style="overflow: hidden; background-color: rgba(26,35,126, .95);">
-            <v-container class="w-100 pa-0">
+            
                 <div class=" mt-4 mb-2 ml-2  text-h6" style="color: #BDBDBD;">
-                Um pouco da <strong class="font-weight-bold text-white"  >nossa caminhada</strong> 
+                    <strong class="font-weight-bold text-white"  >Um pouco da</strong>  nossa caminhada
                 </div>
                 <div    
                 style="width: 70%; height: 1px; background-image: linear-gradient(to left, transparent,white);" 
-                class="mb-4 mx-2"></div>
-                <v-row class="px-2 ">
+                class="mb-8 mx-2"></div>
 
-                <v-col cols="12">
+                <v-carousel  
+                hide-delimiter-background
+                cycle
+                height="300"
+                :show-arrows=false
+                class="rounded-lg mb-4"
+                >
+                    <v-carousel-item
+                    v-for="(src, i) in srcs"
+                    :key="i"
+                    :src=src
+                    cover
+                    ></v-carousel-item>
+                </v-carousel>
+
+                <!--
+              
                         <v-timeline side="end" density="compact">
                             <v-timeline-item density="compact"   size="5"
                             dot-color="red-darken-4"
@@ -40,9 +55,26 @@
                                 <v-img src="/img/historias/5.svg" min-width="285"    class="rounded"></v-img>
                             </v-timeline-item>
                         </v-timeline>
-                </v-col>  
-                </v-row>
-            </v-container>
+                        -->
         </div>
     </div>
 </template>
+
+
+
+
+<script>
+    export default {
+      data () {
+        return {
+           srcs:[
+                '/img/historias/2.jpeg',
+                '/img/historias/3.jpeg',
+                '/img/historias/4.jpeg',
+                '/img/historias/5.jpeg',
+                '/img/historias/6.jpeg'
+           ]
+        }
+      },
+    }
+  </script>
