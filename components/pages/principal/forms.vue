@@ -1,5 +1,5 @@
 <template>
-  <div class="pa-6">
+  <div >
     <form @submit.prevent="submit">
       <div>
           <div class="px-2 pb-2 text-h6  text-indigo-darken-4">

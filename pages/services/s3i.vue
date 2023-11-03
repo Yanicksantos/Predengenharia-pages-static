@@ -70,7 +70,9 @@
                 </div>
                 
                    <!--outra secção-->
-                  <PagesPrincipalForms />
+                   <div class="pa-4">
+                        <PagesPrincipalForms />
+                    </div>
 
             </div>
         </v-main>

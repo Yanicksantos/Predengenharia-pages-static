@@ -64,7 +64,10 @@
                     
                 </div>
             </div>
-            <PagesPrincipalForms />
+            <div class="pa-4">
+                <PagesPrincipalForms />
+            </div>
+            
         </v-main>
     </div>
 </template>

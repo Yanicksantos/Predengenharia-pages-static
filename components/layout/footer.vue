@@ -1,5 +1,5 @@
 <template lang="">
-     <v-footer class="d-flex flex-column w-100  pa-0" >
+     <v-footer class="d-flex flex-column w-100  pa-0"  >
         <div class="bg-indigo-darken-4 d-flex w-100 align-center px-2 py-1">
         <strong class="text-caption">Conecte-se conosco nas redes sociais</strong>
 
@@ -36,6 +36,7 @@
         <div class="px-4 py-2 bg-black text-center w-100">
         {{ new Date().getFullYear() }} — <strong>PRED ENGENHARIA</strong>
         </div>
+       
     </v-footer>
 </template>
 

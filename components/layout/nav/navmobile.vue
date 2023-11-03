@@ -39,9 +39,7 @@
 
 
                       <v-list-item>
-                          <v-btn variant="tonal" width="100%" prepend-icon="mdi-card-account-mail">
-                              Contato
-                          </v-btn>
+                          <UtilsContato />
                       </v-list-item>
                   </v-list>
 

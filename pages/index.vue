@@ -9,7 +9,10 @@
                         <PagesPrincipalHistoria />
                         <PagesPrincipalSobre />
                         <UtilsComentario />
-                        <PagesPrincipalForms />
+                        <div class="pa-6">
+                                <PagesPrincipalForms />
+                        </div>
+                        
                 </v-main>
         </div>
 </template>
