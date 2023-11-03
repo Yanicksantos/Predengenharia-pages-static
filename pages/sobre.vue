@@ -4,8 +4,8 @@
         <div style="background-image: url('/img/sobre/1.jpg'); background-size: cover; background-position: center center; height: 400px;">
             <div class="w-100 h-100 d-flex justify-center align-center pa-2 " style="background-color: rgba(0, 0, 0, .75);">
                 <div class="elevation-24 pa-4 rounded" style="background-color: rgba(0, 0, 0, .3);">
-                    <h1 class="text-h5 font-weight-black text-grey-lighten-1">Especializada em soluções de confiabilidade e produtividade para áreas de O&M</h1>
-                    <p class="mt-4 text-caption font-weight-light text-grey-darken-1">A Pred Engenharia é uma provedora de soluções para gestão de ativos e processos com foco na garantia da segurança, confiabilidade e produtividade das atividades, atuando na indústria e área de serviços desde 1993.</p>
+                    <h1 class="text-h5 font-weight-black text-white">Especializada em soluções de confiabilidade e produtividade para áreas de O&M</h1>
+                    <p class="mt-4 text-caption font-weight-light text-grey-lighten-1">A Pred Engenharia é uma provedora de soluções para gestão de ativos e processos com foco na garantia da segurança, confiabilidade e produtividade das atividades, atuando na indústria e área de serviços desde 1993.</p>
                     <div 
                     style="width: 50%; height: 1px; background-image: linear-gradient(to left, transparent, #B71C1C, transparent);" 
                     class="mx-auto mt-2"></div>
@@ -36,6 +36,10 @@
                 <v-list-item prepend-icon="mdi-checkbox-marked-circle-auto-outline" class="text-caption mb-2">
                     Na área de Automação Industrial provê soluções de monitoramento térmico com termografia infravermelha para melhoria da segurança, qualidade e custo em processos críticos.
                 </v-list-item>          
+            </div>
+
+            <div>
+                <PagesPrincipalHistoria />
             </div>
 
             <div class="bg-grey-lighten-3">

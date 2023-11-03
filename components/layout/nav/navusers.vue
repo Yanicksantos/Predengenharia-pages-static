@@ -10,20 +10,20 @@
                                 <v-list nav variant="compact" size="small">
                                     <v-list-item 
                                     append-icon="mdi-account-cog-outline" 
-                                    
+                                    href="http://www.pred.com.br/sgv/login/index.asp"
                                     variant="tonal"
                                     density="compact"
-                                    href="#"
+                                    
                                     >
-                                        <v-list-item-title >
-                                                Sala Vip
+                                        <v-list-item-title>
+                                            Sala Vip
                                         </v-list-item-title>
                                     </v-list-item>
                                     <v-list-item 
                                     append-icon="mdi-account-hard-hat-outline" 
                                     variant="tonal" 
                                     density="compact"
-                                    href="#"
+                                    href="http://www.pred.com.br/salavip/manutencao/default.asp"
                                     >
                                         <v-list-item-title >
                                                 Intranet

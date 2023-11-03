@@ -11,6 +11,9 @@
             </v-container>
             <div class="mx-6 py-4 px-8 text-grey-lighten-3 elevation-10 rounded text-body-2 "
             style="position: absolute; z-index: 10; color: black; top: 50%; transform: translateY(-50%); background-color: rgba(213, 0, 0, .9);">
+            <div 
+                    style="width: 50%; height: 1px; background-image: linear-gradient(to left, transparent, #fff, transparent);" 
+                    class="mx-auto my-4"></div>
                <p class="text-right">A <span class="font-weight-black"> PRED ENGENHARIA</span> visa atender às necessidades das indústrias, na área de manutenção preditiva industrial, através de prestação de serviços e consultorias. Atua também na pesquisa e desenvolvimento de dispositivos, equipamentos e sistemas voltados para área de manutenção preditiva, instrumentação e controle.</p>
             </div>
             

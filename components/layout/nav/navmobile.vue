@@ -1,6 +1,6 @@
 <template >
     <div class="d-flex d-sm-none">
-        <v-menu width="100%" :close-on-content-click="false" eager>
+        <v-menu width="100%" >
                   <template #activator="{ props:menu }">
                     <v-btn
                     density="comfortable" 
