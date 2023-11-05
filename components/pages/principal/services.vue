@@ -69,7 +69,7 @@
     <!-- Serviços-->
     <v-container class="h-100 w-100 d-none d-sm-flex">
       <div class="w-100">
-        <div class="pt-3 px-2 pb-2 text-h5  text-indigo-darken-4">
+        <div class="pt-6 px-2 pb-2 text-h4  text-indigo-darken-4">
                 Nossos Serviços
         </div>
         <div 
@@ -77,7 +77,7 @@
         class="mb-4 mx-2"></div>
         <v-row class="my-14">
           <v-col cols="6">
-            <v-img src="/img/services/1.svg" cover height="100%" class="rounded-lg"></v-img>
+            <nuxt-link to="/sobre"><v-img src="/img/services/1.svg" cover height="100%" class="rounded-lg"></v-img></nuxt-link>
           </v-col>
           <v-col cols="6" >
             <div class="px-6">

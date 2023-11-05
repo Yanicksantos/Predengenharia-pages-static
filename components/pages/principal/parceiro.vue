@@ -7,7 +7,6 @@
                     <v-col cols="6"><v-img src="/img/parceiro/2.png"></v-img></v-col>
                     <v-col cols="6"><v-img src="/img/parceiro/3.png"></v-img></v-col>
                     <v-col cols="6"><v-img src="/img/parceiro/4.png"></v-img></v-col>
-                
                 </v-row>
             </v-container>
         </div>
