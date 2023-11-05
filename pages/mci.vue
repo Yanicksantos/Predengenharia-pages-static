@@ -1,7 +1,7 @@
 <template >
-    <div class="pt-14">
+    <div class="">
         <!-- Banner -->
-        <div style="background-image: url('/img/mci/1.gif');  background-size: cover; background-position: center center;">
+        <div style="background-image: url('/img/mci/1.gif');  background-size: cover; background-position: center center;" class="pt-14">
             <div class="h-100 w-100 pa-6 " style="background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), transparent);">
                 <div class="d-flex justify-center flex-column align-center h-100 elevation-24 rounded pa-2" style="background-color: rgba(0, 0, 0, .3);">
                         <v-img src="/img/mci/2.png"  width="100" max-height="50"></v-img>

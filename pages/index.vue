@@ -20,9 +20,6 @@
                                 </v-row>
                         </v-container>
                         </div>     
-
-                     
-                        
                 </v-main>
         </div>
 </template>

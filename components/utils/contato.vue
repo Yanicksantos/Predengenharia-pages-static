@@ -1,13 +1,14 @@
 
 import type { PagesPrincipalForms } from '#build/components';
 <template >
-        <v-dialog width="100%">
+        <v-dialog max-width="700px">
             <template v-slot:activator="{ props }">
                 <v-btn 
-                variant="tonal"
+                variant="flat"
                  width="100%" 
                  prepend-icon="mdi-card-account-mail"
                  v-bind="props"
+                 color="#1A237E"
                  >
                     Contato
                 </v-btn>

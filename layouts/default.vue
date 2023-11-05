@@ -14,7 +14,7 @@
       <div style="position: relative;">
         <slot />
         <div style="position: fixed; max-width: 50px; max-height: 20%; right:10px; bottom: 5%; z-index: 100000;">
-            <v-tooltip text="Fala connosco">
+            <v-tooltip text="Fale connosco">
               <template v-slot:activator="{ props }">
                 <v-btn v-bind="props" icon="mdi-chat"  color="green-darken-4"></v-btn>
               </template>

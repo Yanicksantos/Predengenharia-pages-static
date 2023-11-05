@@ -1,7 +1,7 @@
 <template >
-    <div class="mt-10 pt-10">
+    <div class="pt-14">
         <!-- BANNER PRINCIPAL -->
-        <div style="background-image: url('/img/sobre/1.jpg'); background-size: cover; background-position: center center; height: 400px;">
+        <div style="background-image: url('/img/sobre/1.jpg'); background-size: cover; background-position: center center; height: 400px;" class="">
             <div class="w-100 h-100 d-flex justify-center align-center pa-2 " style="background-color: rgba(0, 0, 0, .75);">
                 <div class="elevation-24 pa-4 rounded" style="background-color: rgba(0, 0, 0, .3);">
                     <h1 class="text-h5 font-weight-black text-white">Especializada em soluções de confiabilidade e produtividade para áreas de O&M</h1>
@@ -39,11 +39,7 @@
             </div>
 
 
-            <div class="bg-grey-lighten-3">
-                <h1 class="text-h6 text-center pt-6 px-2">Veja o que estão falando da PRED...</h1>
-                <div 
-                    style="width: 50%; height: 1px; background-image: linear-gradient(to left, transparent, #B71C1C, transparent);" 
-                    class="mx-auto  mt-2"></div>
+            <div >
                 <UtilsComentario />
             </div>
 
