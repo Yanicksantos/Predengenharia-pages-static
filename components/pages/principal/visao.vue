@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="d-sm-none" style="background-image: url('/img/historias/5.svg'); background-size: cover; background-position: center right;">
+        <div class="d-md-none" style="background-image: url('/img/historias/5.svg'); background-size: cover; background-position: center right;">
             <div style="height: 400px; position: relative; background-color: rgba(0, 0, 0, .2);" class="">
                 <v-container class="h-100 pa-0">
                 <v-row class="h-100">
@@ -23,7 +23,7 @@
 
 
         <!-- desktop -->
-        <div class="d-none d-sm-flex"
+        <div class="d-none d-md-flex"
         style="background-image: url('/img/historias/5.svg'); background-size: cover; background-position: center right; height: 500px;" 
         >
         <div 

@@ -81,7 +81,7 @@
           </v-col>
           <v-col cols="6" >
             <div class="px-6">
-              <h1 class="mb-8">Serviços de Engenharia de Manutenção & Confiabilidade</h1>
+              <h1 class="mb-8 text-h5">Serviços de Engenharia de Manutenção & Confiabilidade</h1>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet placeat laudantium quaerat itaque fugit ad dignissimos, ratione corrupti consequuntur suscipit optio ut quam incidunt est illum perspiciatis molestiae repudiandae?
             </div>
             <v-btn       
@@ -96,7 +96,7 @@
         <v-row class="my-14">
           <v-col cols="6" >
             <div class="px-6">
-              <h1 class="mb-8">Serviços Técnicos de Inspeção</h1>
+              <h1 class="mb-8 text-h5">Serviços Técnicos de Inspeção</h1>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet placeat laudantium quaerat itaque fugit ad dignissimos, ratione corrupti consequuntur suscipit optio ut quam incidunt est illum perspiciatis molestiae repudiandae?
             </div>
             <v-btn       
@@ -118,7 +118,7 @@
           </v-col>
           <v-col cols="6" >
             <div class="px-6">
-              <h1 class="mb-8">S3I - Sistema Inteligente de Inspeção Industrial</h1>
+              <h1 class="mb-8 text-h5">S3I - Sistema Inteligente de Inspeção Industrial</h1>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet placeat laudantium quaerat itaque fugit ad dignissimos, ratione corrupti consequuntur suscipit optio ut quam incidunt est illum perspiciatis molestiae repudiandae?
             </div>
             <v-btn       
@@ -133,7 +133,7 @@
         <v-row class="my-14">
           <v-col cols="6" >
             <div class="px-6">
-              <h1 class="mb-8">SFT - Sistema Fixo de Termografia</h1>
+              <h1 class="mb-8 text-h5">SFT - Sistema Fixo de Termografia</h1>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet placeat laudantium quaerat itaque fugit ad dignissimos, ratione corrupti consequuntur suscipit optio ut quam incidunt est illum perspiciatis molestiae repudiandae?
             </div>
             <v-btn       
