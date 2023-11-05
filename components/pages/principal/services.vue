@@ -66,7 +66,7 @@
     </div>
 
 
-    <!-- Serviços-->
+    <!-- Serviços desktop-->
     <v-container class="h-100 w-100 d-none d-sm-flex">
       <div class="w-100">
         <div class="pt-6 px-2 pb-2 text-h4  text-indigo-darken-4">

@@ -10,9 +10,5 @@
                 </v-row>
             </v-container>
         </div>
-
-        <div>
-            
-        </div>
     </div>
 </template>
