@@ -1,5 +1,6 @@
 <template >
-    <div  class="rounded-ts-xl" >
+  <div class="bg-grey-lighten-3 ">
+    <div  class="rounded-ts-xl d-sm-none" >
         <div  class="h-100 w-100 d-flex justify-center align-center bg-grey-lighten-3 ">
                                     
             <div class="w-100 px-4 py-6">
@@ -63,6 +64,96 @@
                             
         </div>
     </div>
+
+
+    <!-- Serviços-->
+    <v-container class="h-100 w-100 d-none d-sm-flex">
+      <div class="w-100">
+        <div class="pt-3 px-2 pb-2 text-h5  text-indigo-darken-4">
+                Nossos Serviços
+        </div>
+        <div 
+        style="width: 40%; height: 1px; background-image: linear-gradient(to left, transparent, transparent,#1A237E);" 
+        class="mb-4 mx-2"></div>
+        <v-row class="my-14">
+          <v-col cols="6">
+            <v-img src="/img/services/1.svg" cover height="100%" class="rounded-lg"></v-img>
+          </v-col>
+          <v-col cols="6" >
+            <div class="px-6">
+              <h1 class="mb-8">Serviços de Engenharia de Manutenção & Confiabilidade</h1>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet placeat laudantium quaerat itaque fugit ad dignissimos, ratione corrupti consequuntur suscipit optio ut quam incidunt est illum perspiciatis molestiae repudiandae?
+            </div>
+            <v-btn       
+            append-icon="mdi-arrow-top-right"
+            class="mt-6 ml-6"
+            to="/sobre"
+            color="#1A237E"
+            >Saiba mais</v-btn>
+          </v-col>
+        </v-row>
+
+        <v-row class="my-14">
+          <v-col cols="6" >
+            <div class="px-6">
+              <h1 class="mb-8">Serviços Técnicos de Inspeção</h1>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet placeat laudantium quaerat itaque fugit ad dignissimos, ratione corrupti consequuntur suscipit optio ut quam incidunt est illum perspiciatis molestiae repudiandae?
+            </div>
+            <v-btn       
+            append-icon="mdi-arrow-top-right"
+            class="mt-6 ml-6"
+            to="/sobre"
+            color="#1A237E"
+            >Saiba mais</v-btn>
+          </v-col>
+          <v-col cols="6">
+            <v-img src="/img/services/2.svg" cover height="100%" class="rounded-lg"></v-img>
+          </v-col>
+        
+        </v-row>
+
+        <v-row class="my-14">
+          <v-col cols="6">
+            <v-img src="/img/services/3.svg" cover height="100%" class="rounded-lg"></v-img>
+          </v-col>
+          <v-col cols="6" >
+            <div class="px-6">
+              <h1 class="mb-8">S3I - Sistema Inteligente de Inspeção Industrial</h1>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet placeat laudantium quaerat itaque fugit ad dignissimos, ratione corrupti consequuntur suscipit optio ut quam incidunt est illum perspiciatis molestiae repudiandae?
+            </div>
+            <v-btn       
+            append-icon="mdi-arrow-top-right"
+            class="mt-6 ml-6"
+            to="/sobre"
+            color="#1A237E"
+            >Saiba mais</v-btn>
+          </v-col>
+        </v-row>
+
+        <v-row class="my-14">
+          <v-col cols="6" >
+            <div class="px-6">
+              <h1 class="mb-8">SFT - Sistema Fixo de Termografia</h1>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet placeat laudantium quaerat itaque fugit ad dignissimos, ratione corrupti consequuntur suscipit optio ut quam incidunt est illum perspiciatis molestiae repudiandae?
+            </div>
+            <v-btn       
+            append-icon="mdi-arrow-top-right"
+            class="mt-6 ml-6"
+            to="/sobre"
+            color="#1A237E"
+            >Saiba mais</v-btn>
+          </v-col>
+          <v-col cols="6">
+            <v-img src="/img/services/4.svg" cover height="100%" class="rounded-lg"></v-img>
+          </v-col>
+        
+        </v-row>
+
+    </div>
+
+
+    </v-container>
+  </div>
 </template>
 
 
