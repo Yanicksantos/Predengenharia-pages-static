@@ -48,7 +48,7 @@
                             </div>
                             <v-btn
                             variant="outlined"
-                            size="small"
+                            
                             append-icon="mdi-arrow-top-right"
                             class="mt-8 text-grey-lighten-5 ml-8"
                             color="#B71C1C"

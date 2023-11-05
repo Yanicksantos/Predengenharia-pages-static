@@ -1,6 +1,7 @@
 <template >
-  <div class="bg-grey-lighten-3 ">
-    <div  class="rounded-ts-xl d-sm-none" >
+  <div>
+  <div class="bg-grey-lighten-3 d-sm-none">
+    <div  class="rounded-ts-xl " >
         <div  class="h-100 w-100 d-flex justify-center align-center bg-grey-lighten-3 ">
                                     
             <div class="w-100 px-4 py-6">
@@ -65,16 +66,19 @@
         </div>
     </div>
 
+  </div>
+  
 
     <!-- Serviços desktop-->
-    <v-container class="h-100 w-100 d-none d-sm-flex">
+    <div style="background-image: url('/img/forms/3.jpg'); background-size: cover;" class="d-none d-sm-flex">
+    <v-container class="h-100 w-100 ">
       <div class="w-100">
-        <div class="pt-6 px-2 pb-2 text-h4  text-indigo-darken-4">
+        <div class="pt-8 px-2 pb-2 text-h4  text-indigo-darken-4 text-center">
                 Nossos Serviços
         </div>
         <div 
-        style="width: 40%; height: 1px; background-image: linear-gradient(to left, transparent, transparent,#1A237E);" 
-        class="mb-4 mx-2"></div>
+        style="width: 20%; height: 1px; background-image: linear-gradient(to left, transparent,#1A237E,transparent);" 
+        class="my-4 mx-auto"></div>
         <v-row class="my-14">
           <v-col cols="6">
             <nuxt-link to="/sobre"><v-img src="/img/services/1.svg" cover height="100%" class="rounded-lg"></v-img></nuxt-link>
@@ -153,6 +157,7 @@
 
 
     </v-container>
+  </div>
   </div>
 </template>
 
