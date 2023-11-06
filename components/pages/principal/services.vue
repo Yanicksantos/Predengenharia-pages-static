@@ -81,7 +81,7 @@
         class="my-4 mx-auto"></div>
         <v-row class="my-14">
           <v-col cols="6">
-            <nuxt-link to="/sobre"><v-img src="/img/services/1.svg" cover height="100%" class="rounded-lg"></v-img></nuxt-link>
+            <nuxt-link to="/services/engenharia-manutencao-e-confiabilidade"><v-img src="/img/services/1.svg" cover height="100%" class="rounded-lg"></v-img></nuxt-link>
           </v-col>
           <v-col cols="6" >
             <div class="px-6">
@@ -91,7 +91,7 @@
             <v-btn       
             append-icon="mdi-arrow-top-right"
             class="mt-6 ml-6"
-            to="/sobre"
+            to="/services/engenharia-manutencao-e-confiabilidade"
             color="#1A237E"
             >Saiba mais</v-btn>
           </v-col>
@@ -106,19 +106,19 @@
             <v-btn       
             append-icon="mdi-arrow-top-right"
             class="mt-6 ml-6"
-            to="/sobre"
+            to="/services/inspecoes"
             color="#1A237E"
             >Saiba mais</v-btn>
           </v-col>
           <v-col cols="6">
-            <v-img src="/img/services/2.svg" cover height="100%" class="rounded-lg"></v-img>
+           <nuxt-link to="/services/inspecoes"><v-img src="/img/services/2.svg" cover height="100%" class="rounded-lg"></v-img></nuxt-link> 
           </v-col>
         
         </v-row>
 
         <v-row class="my-14">
           <v-col cols="6">
-            <v-img src="/img/services/3.svg" cover height="100%" class="rounded-lg"></v-img>
+            <nuxt-link to="/services/s3i"> <v-img src="/img/services/3.svg" cover height="100%" class="rounded-lg"></v-img></nuxt-link>
           </v-col>
           <v-col cols="6" >
             <div class="px-6">
@@ -128,7 +128,7 @@
             <v-btn       
             append-icon="mdi-arrow-top-right"
             class="mt-6 ml-6"
-            to="/sobre"
+            to="/services/s3i"
             color="#1A237E"
             >Saiba mais</v-btn>
           </v-col>
@@ -143,12 +143,12 @@
             <v-btn       
             append-icon="mdi-arrow-top-right"
             class="mt-6 ml-6"
-            to="/sobre"
+            to="/services/sft"
             color="#1A237E"
             >Saiba mais</v-btn>
           </v-col>
           <v-col cols="6">
-            <v-img src="/img/services/4.svg" cover height="100%" class="rounded-lg"></v-img>
+           <nuxt-link to="/services/sft"> <v-img src="/img/services/4.svg" cover height="100%" class="rounded-lg"></v-img></nuxt-link>
           </v-col>
         
         </v-row>

@@ -1,5 +1,5 @@
 <template >
-    <div class="d-flex d-sm-none">
+    <div class="d-flex d-md-none">
         <v-menu width="100%" >
                   <template #activator="{ props:menu }">
                     <v-btn
