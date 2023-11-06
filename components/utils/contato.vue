@@ -18,8 +18,8 @@ import type { PagesPrincipalForms } from '#build/components';
                 <v-card class="pb-6">
 
                     <v-card-actions>
+                        <v-img src="/img/Headers/Logomarca-Pred-Engenharia-1536x319.png" max-width="100" cover class="mx-4" ></v-img>
                         <v-spacer></v-spacer>
-
                         <v-btn
                         icon="mdi-close-box-multiple-outline" 
                         @click="isActive.value = false"
@@ -27,10 +27,11 @@ import type { PagesPrincipalForms } from '#build/components';
                     </v-card-actions>
 
                     <v-card-item>
-                        <PagesPrincipalForms />
+                        <UtilsForm />
                     </v-card-item>
 
                 </v-card>
             </template>
         </v-dialog>
 </template>
+
