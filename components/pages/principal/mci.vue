@@ -1,7 +1,7 @@
 <template >
     <div class="h-100">
    
-        <div class="d-flex flex-column justify-center pa-6 d-sm-none"  style="color: black; background-image: url('/img/main/3.svg'); background-size: cover; ">
+        <div class="d-flex flex-column justify-center pa-6 d-sm-none"  style="color: black; background-image: url('/img/forms/4.jpg'); background-size: cover; ">
             <div class="">
                 <v-img src="/img/main/imgmci.png" cover max-width="50" class="mx-auto"></v-img>
                 <p class="w-100 mx-auto my-4 px-4 text-center text-h5">Obtenha <strong>todo o potencial na sua manutenção </strong>de forma simples e estruturada</p>
@@ -15,7 +15,7 @@
                         
                         <v-btn
                         append-icon="mdi-arrow-top-right"
-                        variant="text"
+                        variant="flat"
                         
                         size="small"
                         class="mt-6"
@@ -31,7 +31,7 @@
         <div class="d-none d-sm-flex h-100">
             <div class="d-flex">
                 <div
-                class="d-flex flex-column justify-center pa-6 w-50"  style="background-image: url('/img/main/3.svg'); background-size: cover; " 
+                class="d-flex flex-column justify-center pa-6 w-50"  style="background-image: url('/img/forms/4.jpg'); background-size: cover; " 
                 >
                     <div>
                         <v-img src="/img/main/imgmci.png" cover max-width="50" class="mx-auto"></v-img>
@@ -43,15 +43,16 @@
                         </p>
                         <v-btn
                         append-icon="mdi-arrow-top-right"
-                        variant="text"
-                        class=" mt-2"
+                        variant="flat"
+                        class=" mt-8"
                         color="#B71C1C"
                         to="/mci"
                     
                         >Saiba mais sobre o método</v-btn>
                     </div>
                 </div>
-                <div style="background-image: url('/img/mci/6.jpg'); background-size: cover;" class="w-50"></div>
+                <div style="background-image: url('/img/mci/8.jpg'); background-size: cover;" class="w-50">
+                </div>
             </div>
 
 
