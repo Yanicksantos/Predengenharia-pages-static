@@ -26,7 +26,7 @@
                             <v-btn
                                 variant="text"
                                 icon="mdi-arrow-right-drop-circle"
-                                @click="model = Math.min(model + 1, 3)"
+                                @click="model = Math.min(model + 1, 4)"
                             ></v-btn>
                         </div>
                         

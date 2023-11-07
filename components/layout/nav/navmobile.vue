@@ -10,6 +10,18 @@
                     ></v-btn>
                   </template>
                   <v-list>
+
+                    <v-list-item
+                     
+                     >
+                         <v-btn
+                         variant="tonal" 
+                         width="100%"
+                         to="/"
+                         >
+                           HOME
+                         </v-btn>
+                     </v-list-item>
                      
 
                       <v-list-item

@@ -48,18 +48,18 @@
                          </v-list-item>
                         </template>
 
-                        <v-list>
+                        <v-list density="compact">
                             <v-list-item>
-                                <v-btn to="/services/engenharia-manutencao-e-confiabilidade" size="small">Serviços de Engenharia de Manutenção & Confiabilidade</v-btn>
+                                <v-btn to="/services/engenharia-manutencao-e-confiabilidade" size="small" class="w-100" variant="tonal">Serviços de Engenharia de Manutenção & Confiabilidade</v-btn>
                             </v-list-item>
                             <v-list-item>
-                                <v-btn to="/services/inspecoes" size="small">Serviços Técnicos de Inspeção</v-btn>
+                                <v-btn to="/services/inspecoes" size="small" class="w-100" variant="tonal">Serviços Técnicos de Inspeção</v-btn>
                             </v-list-item>
                             <v-list-item>
-                                <v-btn to="/services/s3i" size="small">S3I - Sistema Inteligente de Inspeção Industrial</v-btn>
+                                <v-btn to="/services/s3i" size="small" class="w-100" variant="tonal">S3I - Sistema Inteligente de Inspeção Industrial</v-btn>
                             </v-list-item>
                             <v-list-item>
-                                <v-btn to="/services/sft" size="small">SFT - Sistema Fixo de Termografia</v-btn>
+                                <v-btn to="/services/sft" size="small" class="w-100" variant="tonal">SFT - Sistema Fixo de Termografia</v-btn>
                             </v-list-item>
                         </v-list>
 
