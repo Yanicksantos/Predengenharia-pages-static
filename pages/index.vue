@@ -8,7 +8,7 @@
                         <PagesPrincipalParceiro />
                         <PagesPrincipalHistoria />
                         <PagesPrincipalSobre />
-                        <UtilsComentario />
+                        <UtilsComentario class="d-sm-none"/>
                         <PagesPrincipalForms />
                 </v-main>
         </div>

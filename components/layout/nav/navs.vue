@@ -19,18 +19,7 @@
                       </v-list-item>
 
 
-                      <v-list-item
-                     
-                      >
-                          <v-btn
-                          variant="outlined" 
-                          width="100%"
-                          href="https://suporte.s3i.com.br/blog/"
-                          size="small"
-                          >
-                              BLOG
-                          </v-btn>
-                      </v-list-item>
+                    
                       <v-menu>
                         <template #activator="{ props:menu }">
                           <v-list-item
@@ -65,6 +54,20 @@
 
 
                       </v-menu>
+
+                      
+                      <v-list-item
+                     
+                      >
+                          <v-btn
+                          variant="outlined" 
+                          width="100%"
+                          href="https://suporte.s3i.com.br/blog/"
+                          size="small"
+                          >
+                              BLOG
+                          </v-btn>
+                      </v-list-item>
 
 
                       <v-list-item>
