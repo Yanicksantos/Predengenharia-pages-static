@@ -9,7 +9,7 @@
 
         <!-- desktop -->
 
-        <div class="d-none d-sm-block mt-14" style="background-image: url('/img/services/3.svg'); height: 600px; background-size: cover; background-position: center center;">
+        <div class="d-none d-md-block mt-14" style="background-image: url('/img/services/3.svg'); height: 600px; background-size: cover; background-position: center center;">
             <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), transparent);">
                 <div><v-icon icon="mdi-cellphone-cog" size="50"></v-icon></div>
                 <h1 class="text-grey-lighten-1 text-h5 text-md-h2 text-center font-weight-bold elevation-24 mt-2 pa-4">S3I <br><br>SISTEMA INTELIGENTE DE <br>INTERVENÇÃO INDUSTRIAL </h1>

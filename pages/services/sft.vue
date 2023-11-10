@@ -1,9 +1,18 @@
 <template>
     <div>
-        <div class="" style="background-image: url('/img/services/4.svg'); height: 350px; background-size: cover; background-position: center center;">
+        <div class="d-md-none" style="background-image: url('/img/services/4.svg'); height: 350px; background-size: cover; background-position: center center;">
             <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent);">
                 <div><v-icon icon="mdi-cogs" size="50"></v-icon></div>
                 <h1 class="text-grey-lighten-1 text-h5 text-center font-weight-bold elevation-24 mt-2 pa-2">SFT <br>SISTEMA FIXO DE TERMOGRAFIA </h1>
+            </div>
+        </div>
+
+        <!-- desktop -->
+
+        <div class="d-none d-md-block mt-14" style="background-image: url('/img/services/4.svg'); height: 600px; background-size: cover; background-position: center center;">
+            <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent);">
+                <div><v-icon icon="mdi-cogs" size="50"></v-icon></div>
+                <h1 class="text-grey-lighten-1 text-h5  text-md-h2  text-center font-weight-bold elevation-24 mt-2 pa-4">SFT <br>SISTEMA FIXO DE TERMOGRAFIA </h1>
             </div>
         </div>
         
@@ -12,11 +21,11 @@
             <div>
                 <v-container>
                     <div class="px-6 py-4">
-                        <h1 class="text-body-2 font-weight-bold text-center">Uma solução da Pred acompanhada de engenharia de aplicação e ferramentas específicas</h1>
+                        <h1 class="text-body-2 text-md-body-1 font-weight-bold text-center">Uma solução da Pred acompanhada de engenharia de aplicação e ferramentas específicas</h1>
                         <div 
                         style="width: 50%; height: 1px; background-image: linear-gradient(to left, transparent, #1A237E, transparent);" 
-                        class="mx-auto mt-2"></div>
-                        <p class="text-grey-darken-3 text-caption my-2 text-center">SISTEMA FIXO POR TERMOGRAFIA</p>
+                        class="mx-auto my-6"></div>
+                        <p class="text-grey-darken-3 text-caption my-2 text-center d-md-none">SISTEMA FIXO POR TERMOGRAFIA</p>
                     </div>
 
                     <div class="px-6 pb-1 d-md-none">

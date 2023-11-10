@@ -8,7 +8,7 @@
         </div>
 
         <!-- DESKTOP -->
-        <div class="d-none d-sm-block mt-14" style="background-image: url('/img/services/1.svg'); height: 600px; background-size: cover; background-position: center center;">
+        <div class="d-none d-md-block mt-14" style="background-image: url('/img/services/1.svg'); height: 600px; background-size: cover; background-position: center center;">
             <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.7),transparent);">
                 <div><v-icon icon="mdi-cog-play" size="50"></v-icon></div>
                 <h1 class="text-grey-lighten-1 text-h5 text-md-h2 text-center font-weight-bold elevation-24 mt-6 pa-4">SERVIÇOS DE ENGENHARIA DE MANUTENÇÃO E CONFIABILIDADE</h1>
