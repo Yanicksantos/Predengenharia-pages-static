@@ -42,6 +42,17 @@
           
         ></v-text-field>
 
+        <v-text-field
+          v-model="Whatsapp.value.value"
+          :error-messages="Whatsapp.errorMessage.value"
+          label="Whatsapp"
+          variant="outlined"
+          type="text"
+          class="mb-2"
+          density="compact"
+          
+        ></v-text-field>
+
         <v-btn
         variant="flat"
     
@@ -78,11 +89,19 @@ const { handleSubmit } = useForm({
 
       return ''
     },
+    Whatsapp (value) {
+      if (/^[0-9]{7,}$/.test(value) || cont>0) {
+        cont = 0
+        return true
+      }
+      return ''
+    }
   },
 })
 const name = useField('name')
 const phone = useField('phone')
 const email = useField('email')
+const Whatsapp = useField('Whatsapp')
 
 
 
@@ -91,6 +110,7 @@ const submit = handleSubmit(values => {
   name.value.value =''
   phone.value.value = ''
   email.value.value = ''
+  Whatsapp.value.value = ''
   cont++
 })
 </script>
