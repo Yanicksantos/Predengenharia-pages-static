@@ -1,7 +1,7 @@
 <template >
     <div>
         <div
-        class="d-md-none"
+        class="d-md-none mt-14"
         style="background-image: url('/img/Headers/5.svg'); background-size: cover; height: 600px; overflow: hidden; background-position: center ;" 
         >
             <div 
@@ -30,7 +30,7 @@
 
         <!-- DESKTOP -->
         <div
-        class="d-none d-md-flex"
+        class="d-none d-md-flex mt-14"
         style="background-image: url('/img/Headers/5.svg'); background-size: cover; height:700px; overflow: hidden; background-position: center ;" 
         >
         <div 
